@@ -13,20 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Instrumento.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="22" column="8" selection-start-line="22" selection-start-column="10" selection-end-line="23" selection-end-column="58" />
+            <state relative-caret-position="136">
+              <caret line="14" column="113" selection-start-line="14" selection-start-column="113" selection-end-line="14" selection-end-column="113" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_Instrumento.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+            <state relative-caret-position="355">
+              <caret line="42" column="59" selection-start-line="42" selection-start-column="59" selection-end-line="42" selection-end-column="59" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -51,13 +51,14 @@
       <list>
         <option value="$PROJECT_DIR$/Percusion.py" />
         <option value="$PROJECT_DIR$/test_percusion.py" />
-        <option value="$PROJECT_DIR$/test_Instrumento.py" />
         <option value="$PROJECT_DIR$/Instrumento.py" />
+        <option value="$PROJECT_DIR$/test_Instrumento.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-10" />
+    <option name="x" value="-85" />
+    <option name="y" value="12" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
@@ -93,7 +94,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_Instrumento.TestInstrumento.test_cantidad">
+  <component name="RunManager" selected="Python tests.Unittests for test_Instrumento.TestInstrumento.test_percusion">
     <configuration name="Instrumento" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="instrumentos" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,7 +130,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_percusion.TestPercusion" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_Instrumento.TestInstrumento.test_cuerdas" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="instrumentos" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,7 +140,21 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_percusion.TestPercusion&quot;" />
+      <option name="_new_target" value="&quot;test_Instrumento.TestInstrumento.test_cuerdas&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_Instrumento.TestInstrumento.test_percusion" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="instrumentos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_Instrumento.TestInstrumento.test_percusion&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -157,27 +172,13 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_percusion.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="instrumentos" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_percusion.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_Instrumento.TestInstrumento.test_percusion" />
+        <item itemvalue="Python tests.Unittests for test_Instrumento.TestInstrumento.test_cuerdas" />
         <item itemvalue="Python tests.Unittests for test_Instrumento.TestInstrumento.test_cantidad" />
         <item itemvalue="Python tests.Unittests in test_Instrumento.py" />
         <item itemvalue="Python.Instrumento" />
-        <item itemvalue="Python tests.Unittests for test_percusion.TestPercusion" />
-        <item itemvalue="Python tests.Unittests in test_percusion.py" />
       </list>
     </recent_temporary>
   </component>
@@ -195,39 +196,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_Instrumento_TestInstrumento_test_cantidad - 2019.05.19 at 14h 33m 42s.xml">
+    <history-entry file="Unittests_for_test_Instrumento_TestInstrumento_test_cantidad - 2019.05.19 at 14h 44m 35s.xml">
       <configuration name="Unittests for test_Instrumento.TestInstrumento.test_cantidad" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_Instrumento_TestInstrumento_test_cantidad - 2019.05.19 at 14h 34m 01s.xml">
-      <configuration name="Unittests for test_Instrumento.TestInstrumento.test_cantidad" configurationId="tests" />
+    <history-entry file="Unittests_for_test_Instrumento_TestInstrumento_test_cuerdas - 2019.05.19 at 14h 56m 30s.xml">
+      <configuration name="Unittests for test_Instrumento.TestInstrumento.test_cuerdas" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_Instrumento_TestInstrumento_test_cantidad - 2019.05.19 at 14h 34m 11s.xml">
-      <configuration name="Unittests for test_Instrumento.TestInstrumento.test_cantidad" configurationId="tests" />
+    <history-entry file="Unittests_for_test_Instrumento_TestInstrumento_test_cuerdas - 2019.05.19 at 14h 59m 14s.xml">
+      <configuration name="Unittests for test_Instrumento.TestInstrumento.test_cuerdas" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_Instrumento_TestInstrumento_test_cantidad - 2019.05.19 at 14h 36m 57s.xml">
-      <configuration name="Unittests for test_Instrumento.TestInstrumento.test_cantidad" configurationId="tests" />
+    <history-entry file="Unittests_for_test_Instrumento_TestInstrumento_test_cuerdas - 2019.05.19 at 15h 00m 11s.xml">
+      <configuration name="Unittests for test_Instrumento.TestInstrumento.test_cuerdas" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_Instrumento_TestInstrumento_test_cantidad - 2019.05.19 at 14h 38m 36s.xml">
-      <configuration name="Unittests for test_Instrumento.TestInstrumento.test_cantidad" configurationId="tests" />
+    <history-entry file="Unittests_for_test_Instrumento_TestInstrumento_test_cuerdas - 2019.05.19 at 15h 00m 38s.xml">
+      <configuration name="Unittests for test_Instrumento.TestInstrumento.test_cuerdas" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_Instrumento_TestInstrumento_test_cantidad - 2019.05.19 at 14h 39m 04s.xml">
-      <configuration name="Unittests for test_Instrumento.TestInstrumento.test_cantidad" configurationId="tests" />
+    <history-entry file="Unittests_for_test_Instrumento_TestInstrumento_test_percusion - 2019.05.19 at 15h 05m 38s.xml">
+      <configuration name="Unittests for test_Instrumento.TestInstrumento.test_percusion" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_Instrumento_TestInstrumento_test_cantidad - 2019.05.19 at 14h 39m 10s.xml">
-      <configuration name="Unittests for test_Instrumento.TestInstrumento.test_cantidad" configurationId="tests" />
+    <history-entry file="Unittests_for_test_Instrumento_TestInstrumento_test_percusion - 2019.05.19 at 15h 05m 48s.xml">
+      <configuration name="Unittests for test_Instrumento.TestInstrumento.test_percusion" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_Instrumento_TestInstrumento_test_cantidad - 2019.05.19 at 14h 39m 19s.xml">
-      <configuration name="Unittests for test_Instrumento.TestInstrumento.test_cantidad" configurationId="tests" />
+    <history-entry file="Unittests_for_test_Instrumento_TestInstrumento_test_percusion - 2019.05.19 at 15h 09m 29s.xml">
+      <configuration name="Unittests for test_Instrumento.TestInstrumento.test_percusion" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_Instrumento_TestInstrumento_test_cantidad - 2019.05.19 at 14h 44m 09s.xml">
-      <configuration name="Unittests for test_Instrumento.TestInstrumento.test_cantidad" configurationId="tests" />
+    <history-entry file="Unittests_for_test_Instrumento_TestInstrumento_test_percusion - 2019.05.19 at 15h 10m 05s.xml">
+      <configuration name="Unittests for test_Instrumento.TestInstrumento.test_percusion" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_Instrumento_TestInstrumento_test_cantidad - 2019.05.19 at 14h 44m 12s.xml">
-      <configuration name="Unittests for test_Instrumento.TestInstrumento.test_cantidad" configurationId="tests" />
+    <history-entry file="Unittests_for_test_Instrumento_TestInstrumento_test_percusion - 2019.05.19 at 15h 10m 22s.xml">
+      <configuration name="Unittests for test_Instrumento.TestInstrumento.test_percusion" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1400" height="784" extended-state="0" />
+    <frame x="-68" y="10" width="1400" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -267,20 +268,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_Instrumento.py">
+    <entry file="file://$PROJECT_DIR$/Instrumento.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="14" column="113" selection-start-line="14" selection-start-column="113" selection-end-line="14" selection-end-column="113" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Instrumento.py">
+    <entry file="file://$PROJECT_DIR$/test_Instrumento.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="10" selection-end-line="23" selection-end-column="58" />
+        <state relative-caret-position="355">
+          <caret line="42" column="59" selection-start-line="42" selection-start-column="59" selection-end-line="42" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

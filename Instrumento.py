@@ -9,20 +9,19 @@ class Instrumento:
     def percusion(self, diametro, frecvibra):
         self.diametro = diametro
         self.frecvibra = frecvibra
-        return f'{self.nombre} tiene un diametro de {diametro} y una frecuencia de vibracion de {frecvibra}'
 
-    def cuerdas(self, n_cuerdas, a_c_1, a_c_2, a_c_3, a_c_4, a_c_5, a_c_6):
+        if diametro < 0 or frecvibra < 0:
+            raise ValueError('No hay diametros ni frecuencias negativas')
+        return f'{self.nombre} tiene un diametro de {diametro} cm y una frecuencia de vibracion de {frecvibra} Hz'
+
+    def cuerdas(self, n_cuerdas, a_c_1):
         self.n_cuerdas = n_cuerdas
         self.a_c_1 = a_c_1
-        self.a_c_2 = a_c_2
-        self.a_c_3 = a_c_3
-        self.a_c_4 = a_c_4
-        self.a_c_5 = a_c_5
-        self.a_c_6 = a_c_6
 
-        # if n_cuerdas < 0:
-        #     raise ValueError('No hay cuerdas negativas')
-        return f'{self.nombre} tiene {n_cuerdas} cuerdas y estan afinadas en {a_c_1}, {a_c_2}, {a_c_3}, {a_c_4}, {a_c_5}, {a_c_6} respectivamente'
+
+        if n_cuerdas < 0:
+            raise ValueError('No hay cuerdas negativas')
+        return f'{self.nombre} tiene {n_cuerdas} cuerdas y estan afinadas en {a_c_1} respectivamente'
 
     def cantidad(self, numero):
         if numero < 0:
