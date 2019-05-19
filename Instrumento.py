@@ -19,14 +19,24 @@ class Instrumento:
         self.a_c_4 = a_c_4
         self.a_c_5 = a_c_5
         self.a_c_6 = a_c_6
+
+        # if n_cuerdas < 0:
+        #     raise ValueError('No hay cuerdas negativas')
         return f'{self.nombre} tiene {n_cuerdas} cuerdas y estan afinadas en {a_c_1}, {a_c_2}, {a_c_3}, {a_c_4}, {a_c_5}, {a_c_6} respectivamente'
+
+    def cantidad(self, numero):
+        if numero < 0:
+            raise ValueError('No existen cantidades negativas')
+        else:
+            return f'{self.nombre} cuenta con {numero} ejemplares'
 
 
 tambor = Instrumento('Tambor', 'I', 'Jazz', 'F')
 guitarra = Instrumento('Guitarra', 'IV', 'Blues', 'B')
 
-print(tambor.percusion('30 cm','40 Hz'))
-print(guitarra.cuerdas('6','C','AM','D','F','G','DM'))
+# print(tambor.percusion('30 cm', '40 Hz'))
+# print(guitarra.cuerdas('6', 'C', 'AM', 'D', 'F', 'G', 'DM'))
+# print(guitarra.cantidad(5))
 
     # def descripcion(self):
     #     print(self.nombre, "tiene una armonia", self.armonia, "una melodia", self.melodia, "y esta afinado en", self.afinacion)
